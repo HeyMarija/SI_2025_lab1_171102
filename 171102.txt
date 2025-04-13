@@ -1,0 +1,74 @@
+4. lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop
+$ cd SI_2025_lab1_171102/
+
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102
+$ git init
+Initialized empty Git repository in C:/Users/lakov/Desktop/SI_2025_lab1_171102/.git/
+
+
+5. lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git remote add origin https://github.com/HeyMarija/SI_2025_lab1_171102.git
+
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git remote -v
+origin  https://github.com/HeyMarija/SI_2025_lab1_171102.git (fetch)
+origin  https://github.com/HeyMarija/SI_2025_lab1_171102.git (push)
+
+6. lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ touch README.md
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git add .
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git commit -m "initial commit"
+[master (root-commit) c7c07a9] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+7. lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git add .
+warning: in the working copy of 'SI2025Lab1Main.java', LF will be replaced by CRLF the next time Git touches it
+
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   SI2025Lab1Main.java
+
+
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git commit -m "add starter code"
+[master c4ce61a] add starter code
+ 1 file changed, 126 insertions(+)
+ create mode 100644 SI2025Lab1Main.java
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git add .
+warning: in the working copy of 'SI2025Lab1Main.java', LF will be replaced by CRLF the next time Git touches it
+g
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git commit -m "Implemented missing tasks"
+[master 91a0435] Implemented missing tasks
+ 1 file changed, 85 insertions(+), 3 deletions(-)
+
+8. lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 2.22 KiB | 455.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/HeyMarija/SI_2025_lab1_171102.git
+ * [new branch]      master -> master

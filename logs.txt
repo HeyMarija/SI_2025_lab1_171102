@@ -1,0 +1,5 @@
+lakov@DESKTOP-OPFTP7N MINGW64 ~/Desktop/SI_2025_lab1_171102 (master)
+$ git log --oneline --graph --all
+* 91a0435 (HEAD -> master, origin/master) Implemented missing tasks
+* c4ce61a add starter code
+* c7c07a9 initial commit
